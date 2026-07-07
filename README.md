@@ -1,6 +1,14 @@
 # 🐍 Snake Game in Java
 
-A classic Snake Game built using **Java Swing** and **AWT**. The player controls the snake using the arrow keys to eat apples, grow in length, and achieve the highest possible score while avoiding collisions.
+A desktop Snake Game developed using **Java Swing** and **AWT** to demonstrate core **Object-Oriented Programming (OOP)** concepts, event-driven programming, graphics rendering, and real-time game logic. The project follows a modular class-based architecture with separate responsibilities for game initialization, window management, rendering, user input, collision detection, and game state management.
+
+---
+
+## 🎥 Demo
+
+<p align="center">
+  <img src="assets/demo.gif" alt="Snake Game Demo" width="850">
+</p>
 
 ---
 
@@ -16,16 +24,32 @@ A classic Snake Game built using **Java Swing** and **AWT**. The player controls
 
 ---
 
-## 🎮 Features
+## ✨ Features
 
 - Smooth snake movement
-- Keyboard controls
 - Random apple generation
-- Real-time score display
-- Snake grows after eating apples
-- Collision detection
+- Real-time score tracking
+- Snake growth after eating apples
+- Collision detection with walls and snake body
 - Game Over screen
-- Object-Oriented Design using Java
+- Responsive keyboard controls
+- Modular Object-Oriented Design
+
+---
+
+## 📚 Java Concepts Demonstrated
+
+- Object-Oriented Programming (OOP)
+- Classes and Objects
+- Inheritance
+- Encapsulation
+- Event Handling
+- Swing GUI Programming
+- AWT Graphics
+- Timer-based Animation
+- Keyboard Listeners
+- Arrays
+- Random Number Generation
 
 ---
 
@@ -34,14 +58,12 @@ A classic Snake Game built using **Java Swing** and **AWT**. The player controls
 - Java
 - Java Swing
 - Java AWT
-- Event Handling
-- Object-Oriented Programming
 
 ---
 
 ## 📂 Project Structure
 
-```
+```text
 Snake-Game-Java/
 │
 ├── src/
@@ -50,56 +72,21 @@ Snake-Game-Java/
 │   └── GamePanel.java
 │
 ├── screenshots/
+│   ├── gameplay.png
+│   └── gameover.png
 │
 ├── assets/
+│   └── demo.gif
 │
+├── .gitignore
 └── README.md
 ```
 
 ---
 
-## 🚀 How to Run
-
-Clone the repository
-
-```bash
-git clone https://github.com/your-username/Snake-Game-Java.git
-```
-
-Go inside the project
-
-```bash
-cd Snake-Game-Java/src
-```
-
-Compile
-
-```bash
-javac *.java
-```
-
-Run
-
-```bash
-java SnakeGame
-```
-
----
-
-## 🎯 Controls
-
-| Key | Action |
-|-----|--------|
-| ↑ | Move Up |
-| ↓ | Move Down |
-| ← | Move Left |
-| → | Move Right |
-
----
-
 ## 🏗 Project Architecture
 
-```
+```text
 SnakeGame
     │
     ▼
@@ -108,31 +95,85 @@ GameFrame (JFrame)
     ▼
 GamePanel (JPanel)
     │
-    ├── Paint Components
+    ├── Rendering Graphics
     ├── Snake Movement
     ├── Apple Generation
     ├── Collision Detection
     ├── Score Management
-    └── Keyboard Controls
+    ├── Keyboard Input
+    └── Game Loop
 ```
----
-
-## 🎥 Demo
-
-![Snake Game Demo](assets/demo.gif)
 
 ---
 
-## 📌 Future Improvements
+## 🎮 Controls
 
-- Pause/Resume
-- High Score Saving
-- Difficulty Levels
-- Sound Effects
-- Background Music
-- Start Menu
-- Restart Button
-- Better Snake Graphics
+| Key | Action |
+|------|--------|
+| ↑ | Move Up |
+| ↓ | Move Down |
+| ← | Move Left |
+| → | Move Right |
+
+---
+
+## 🚀 How to Run
+
+Clone the repository
+
+```bash
+git clone https://github.com/pnhirapara/Snake-Game-Java.git
+```
+
+Navigate to the source folder
+
+```bash
+cd Snake-Game-Java/src
+```
+
+Compile the project
+
+```bash
+javac *.java
+```
+
+Run the application
+
+```bash
+java SnakeGame
+```
+
+---
+
+## 💡 Learning Outcomes
+
+Through this project, I gained practical experience with:
+
+- Applying Object-Oriented Programming principles in Java
+- Building desktop GUI applications using Swing
+- Event-driven programming with ActionListener and KeyListener
+- Implementing timer-based game loops
+- Rendering graphics using Java AWT
+- Managing application state and collision detection
+- Organizing Java projects using a modular class structure
+
+---
+
+## 🚀 Future Improvements
+
+- Pause / Resume functionality
+- Restart button
+- High score persistence
+- Difficulty levels
+- Sound effects
+- Start menu
+- Better graphics and animations
+
+---
+
+## 🙏 Acknowledgement
+
+This project was created as part of my Java learning journey by following a Java Swing Snake Game tutorial. I used the tutorial to understand the implementation and strengthen my understanding of Java, Swing, event handling, graphics programming, and Object-Oriented Programming concepts.
 
 ---
 
@@ -140,4 +181,4 @@ GamePanel (JPanel)
 
 **Preet Hirapara**
 
-GitHub: https://github.com/your-username
+- GitHub: https://github.com/pnhirapara
