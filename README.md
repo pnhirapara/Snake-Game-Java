@@ -6,9 +6,7 @@ A desktop Snake Game developed using **Java Swing** and **AWT** to demonstrate c
 
 ## 🎥 Demo
 
-<p align="center">
-  <img src="assets/demo.gif" alt="Snake Game Demo" width="850">
-</p>
+![Snake Game Demo](assets/demo.gif)
 
 ---
 
