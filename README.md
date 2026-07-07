@@ -115,6 +115,11 @@ GamePanel (JPanel)
     ├── Score Management
     └── Keyboard Controls
 ```
+---
+
+## 🎥 Demo
+
+![Snake Game Demo](assets/demo.gif)
 
 ---
 
