@@ -166,13 +166,7 @@ Through this project, I gained practical experience with:
 - Sound effects
 - Start menu
 - Better graphics and animations
-
----
-
-## 🙏 Acknowledgement
-
-This project was created as part of my Java learning journey by following a Java Swing Snake Game tutorial. I used the tutorial to understand the implementation and strengthen my understanding of Java, Swing, event handling, graphics programming, and Object-Oriented Programming concepts.
-
+- 
 ---
 
 ## 👨‍💻 Author
